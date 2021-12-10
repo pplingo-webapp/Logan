@@ -12,7 +12,7 @@
         "start:dev": "npm run demo && webpack-dev-server",
         "allready": "npm run test && npm run demo",
         "publish:beta": "npm run allready && standard-version --prerelease beta && npm publish --tag beta",
-        "publish:prod": "npm run allready && standard-version && git push --follow-tags origin master && npm publish --"
+        "publish:prod": "npm run allready && standard-version && git push --follow-tags origin master && npm publish"
     },
     "publishConfig": {
         "registry": "http://verdaccio.lingoace.com"
