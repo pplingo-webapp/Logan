@@ -32,6 +32,7 @@ async function getLogAndSend (reportName: string, reportConfig: ReportConfig): P
                 deviceId: reportConfig.deviceId,
                 environment: `${reportConfig.environment || ''}`,
                 customInfo: `${reportConfig.customInfo || ''}`,
+                unionId: `${reportConfig.unionId || ''}`,
                 logPageNo: logReportOb.pageIndex + 1, // pageNo start from 1,
                 fileDate: logReportOb.logDay,
                 logArray: logItems

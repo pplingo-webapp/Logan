@@ -88,7 +88,8 @@ export interface ReportXHROpts {
  * @param {YYYY-MM-DD} toDayString Logs that saved until this day (this day is not exclusive) will be uploaded.
  * @param webSource Extra report source information. Like browser, WeChat etc.
  * @param environment Extra current environment information.
- * @param customInfo Extra information of current biz, user etc.
+ * @param customInfo Extra information of current biz, user etc. *
+ * @param unionId    Extra local userid.
  * @param xhrOptsFormatter This formatter can override standard xhr options when reporting logs. Each property you set in formatter will replace the standard logan report option.
  *
  */
@@ -104,6 +105,7 @@ export interface ReportConfig {
     reportUrl?: string;
     deviceId?: string;
     webSource?: string;
+    unionId?: string;
     environment?: string;
     customInfo?: string;
     xhrOptsFormatter?: {
