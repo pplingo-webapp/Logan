@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/Meituan-Dianping/Logan/compare/v1.1.0...v1.2.0) (2021-12-10)
+
+
+### Features
+
+* add nodejs server to decrypt Logan log ([f7f84c0](https://github.com/Meituan-Dianping/Logan/commit/f7f84c0ac935481bfca8283f2760e17da29867e5))
+* reportlog add unionId ([857257f](https://github.com/Meituan-Dianping/Logan/commit/857257fa429e6e363f84e30c3351c40fbf16e36f))
+
+
+### Bug Fixes
+
+* **docs,example:** Corrected typo in example and README.md ([1eed15b](https://github.com/Meituan-Dianping/Logan/commit/1eed15bb50dd8cc5638d9ad6c202700f6de0d985))
+* fix readme gif loading error ([2e7246b](https://github.com/Meituan-Dianping/Logan/commit/2e7246b02b43c8de2bed97487fd4235680569cc5))
+
 ## [1.1.0](https://github.com/Meituan-Dianping/Logan/compare/v1.1.0-beta.6...v1.1.0) (2020-05-22)
 
 ## [1.1.0-beta.6](https://github.com/Meituan-Dianping/Logan/compare/v1.1.0-beta.5...v1.1.0-beta.6) (2020-05-21)
